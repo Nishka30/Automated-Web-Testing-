@@ -25,14 +25,14 @@ namespace SimpleWebAppTests
         [TestMethod]
         public void TestPageLoad()
         {
-            driver.Navigate().GoToUrl("http://localhost:5192");
+            driver.Navigate().GoToUrl("http://localhost:5240");
             Assert.AreEqual("Enter your details", driver.FindElement(By.TagName("h2")).Text);
         }
 
         [TestMethod]
         public void TestFormSubmission()
         {
-            driver.Navigate().GoToUrl("http://localhost:5192");
+            driver.Navigate().GoToUrl("http://localhost:5240");
             driver.FindElement(By.Id("name")).SendKeys("John Doe");
             driver.FindElement(By.Id("email")).SendKeys("john.doe@example.com");
             driver.FindElement(By.Id("phone")).SendKeys("1234567890");
