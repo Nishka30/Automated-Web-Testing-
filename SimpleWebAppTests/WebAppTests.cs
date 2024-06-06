@@ -33,15 +33,15 @@ namespace SimpleWebAppTests
         public void TestFormSubmission()
         {
             driver.Navigate().GoToUrl("http://localhost:5240");
-            driver.FindElement(By.Id("name")).SendKeys("John Doe");
-            driver.FindElement(By.Id("email")).SendKeys("john.doe@example.com");
+            driver.FindElement(By.Id("name")).SendKeys("Nishka Shrimali");
+            driver.FindElement(By.Id("email")).SendKeys("shrimalinishka@gmail.com");
             driver.FindElement(By.Id("phone")).SendKeys("1234567890");
             driver.FindElement(By.TagName("button")).Click();
 
             Thread.Sleep(3000); // Simulate delay
             
             var welcomeMessage = driver.FindElement(By.TagName("h3")).Text;
-            Assert.AreEqual("Welcome, John Doe!", welcomeMessage);
+            Assert.AreEqual("Welcome, Nishka Shrimali!", welcomeMessage);
         }
     }
 }
