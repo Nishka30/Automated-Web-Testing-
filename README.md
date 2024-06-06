@@ -12,28 +12,28 @@ This repository contains a simple ASP.NET Core MVC application along with an MST
 
 ### Create and Run the ASP.NET Core MVC Project
 
-1) Open a terminal and create a new ASP.NET Core MVC project:
+1) Open a terminal and create a new ASP.NET Core MVC project:<br>
 **dotnet new mvc -n SimpleWebApp**
    
-2)Navigate to the project directory:
+2)Navigate to the project directory:<br>
 **cd SimpleWebApp**
 
 3)Add the User model, HomeController, and Index view as per the instructions.
 
-4)Run the application:
+4)Run the application:<br>
 **dotnet run**
 
 The application should now be running at **http://localhost:5240**
 
 ### Create and Set Up the Test Project
 
-1)Open a new terminal (or use the existing one) and create a new MSTest project:
+1)Open a new terminal (or use the existing one) and create a new MSTest project:<br>
 **dotnet new mstest -n SimpleWebAppTests**
 
-2)Navigate to the test project directory:
+2)Navigate to the test project directory:<br>
 **cd SimpleWebAppTests**
 
-3)Add Selenium WebDriver dependencies:
+3)Add Selenium WebDriver dependencies:<br>
 **dotnet add package Selenium.WebDriver**<br>
 **dotnet add package Selenium.WebDriver.ChromeDriver**
 
