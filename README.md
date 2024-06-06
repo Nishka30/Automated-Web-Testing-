@@ -11,7 +11,8 @@ This repository contains a simple ASP.NET Core MVC application along with an MST
 ## Setting Up the Development Environment
 
 ### Create and Run the ASP.NET Core MVC Project
-1) Open a terminal and create a new ASP.NET Core MVC project:<br>
+
+1)Open a terminal and create a new ASP.NET Core MVC project:<br>
 **dotnet new mvc -n SimpleWebApp**
    
 2)Navigate to the project directory:<br>
