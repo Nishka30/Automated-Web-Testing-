@@ -34,7 +34,7 @@ The application should now be running at **http://localhost:5240**
 **cd SimpleWebAppTests**
 
 3)Add Selenium WebDriver dependencies:
-**dotnet add package Selenium.WebDriver
-dotnet add package Selenium.WebDriver.ChromeDriver**
+**dotnet add package Selenium.WebDriver**
+**dotnet add package Selenium.WebDriver.ChromeDriver**
 
 In the test project, create the WebAppTests.cs file with the provided test code.
