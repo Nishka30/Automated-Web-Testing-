@@ -13,7 +13,7 @@ This repository contains a simple ASP.NET Core MVC application along with an MST
 ### Create and Run the ASP.NET Core MVC Project
 
 1) Open a terminal and create a new ASP.NET Core MVC project:
-   ### dotnet new mvc -n SimpleWebApp
+**dotnet new mvc -n SimpleWebApp**
    
 2)Navigate to the project directory:
 **cd SimpleWebApp**
@@ -23,9 +23,10 @@ This repository contains a simple ASP.NET Core MVC application along with an MST
 4)Run the application:
 **dotnet run**
 
-The application should now be running at **http://localhost:5000**
+The application should now be running at **http://localhost:5240**
 
-**Create and Set Up the Test Project**
+### Create and Set Up the Test Project
+
 1)Open a new terminal (or use the existing one) and create a new MSTest project:
 **dotnet new mstest -n SimpleWebAppTests**
 
